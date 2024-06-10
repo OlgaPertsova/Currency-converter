@@ -6,7 +6,7 @@
 Run the following commands to bootstrap your environment:
 
     sudo apt-get install -y git python-venv python-pip
-    git clone ...
+    git clone https://github.com/OlgaPertsova/Currency-converter.git
     cd app
 
     python -m venv venv
@@ -21,7 +21,7 @@ Run the app locally:
 
 Run the app docker:
 
-    git clone ...
+    git clone https://github.com/OlgaPertsova/Currency-converter.git
     cd app
     docker build . --tag docker-currency-converter
-    docker run image_id/image_tag
+    docker run -p 8004:8001 image_id/image_tag

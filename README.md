@@ -24,4 +24,5 @@ Run the app docker:
     git clone https://github.com/OlgaPertsova/Currency-converter.git
     cd currency-converter
     docker build . --tag docker-currency-converter
+    docker images
     docker run -p 8004:8001 image_id/image_tag
